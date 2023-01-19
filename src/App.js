@@ -1,15 +1,13 @@
-import './App.css';
+import "./App.css";
 
-import Ventana from './window.js';
+import Ventana from "./window.js";
 
 function App() {
-  
-  document.title = 'Clicker App';
+  document.title = "Clicker App";
 
-  
   return (
     <div className="App">
-        <Ventana/>
+      <Ventana />
     </div>
   );
 }

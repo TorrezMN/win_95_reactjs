@@ -1,75 +1,71 @@
-
-.window{
-  background:var(--color-gray);
-  width:50vw;
-  height:30vh;
-  padding:5px;
+.window {
+  background: var(--color-gray);
+  width: 50vw;
+  height: 30vh;
+  padding: 5px;
 }
-.window_header{
-  width:100%;
-  height:20%;
-  background:var(--color-blue);
+.window_header {
+  width: 100%;
+  height: 20%;
+  background: var(--color-blue);
 
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.title{
-  height:80%;
-   display: flex;
+.title {
+  height: 80%;
+  display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  color:whitesmoke;
-  padding-left:5px;
-  padding-top:3px;
-
+  color: whitesmoke;
+  padding-left: 5px;
+  padding-top: 3px;
 }
-.header_buttons{
-  height:80%;
-  width:30%;
-  display:flex;
-  flex-direction:row;
-  justify-content:flex-end;
-  align-items:center;
-  padding-right:3px;
-
+.header_buttons {
+  height: 80%;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3px;
 }
-.header_button{
-  width:20%;
-  height:80%;
-  color:black;
+.header_button {
+  width: 20%;
+  height: 80%;
+  color: black;
 }
 
-.window_content{
-  width:100%;
-  height:100%;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
+.window_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.window_content>p{
-  width:100%;
-  height:30%;
-  text-align:center;;
+.window_content > p {
+  width: 100%;
+  height: 30%;
+  text-align: center;
 }
 
-.content_buttons{
-  width:100%;
-  height:30%;
-  display:flex;
-  flex-direction:row;
-  justify-content:flex-end;
-  align-items:center;
+.content_buttons {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-
-.content_button{
-  width:20%;
-  height:50%;
-  margin:5px;
+.content_button {
+  width: 20%;
+  height: 50%;
+  margin: 5px;
 }
